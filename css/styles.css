@@ -990,6 +990,7 @@ footer
     font-size: 12px;
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
+    color: var(--main-color);
 }
 
 .register-form-icon {
@@ -1067,6 +1068,7 @@ footer
 
 .link-policy {
     color: var(--accent-color);
+    text-decoration-line: underline;
 }
 
 .register-form-button {
@@ -1085,10 +1087,10 @@ footer
     background-color: var(--btn-accent-color);
 }
 
-textarea::placeholder {
+/*textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
     font-weight: 400;
     font-size: 82px;
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
-}
+}*/
